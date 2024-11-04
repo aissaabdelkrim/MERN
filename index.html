@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Roadmap</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>MERN Roadmap</h1>
+    <div class="roadmap">
+        <div class="container">
+            <div class="task" id="task1">
+                <h2>HTML and CSS</h2>
+                <p>The foundation of any website has to be HTML and CSS. But why start with them? Because for any website you create, you need to understand the basics correctly. So, you must know Flexbox and CSS Grid, and how to make websites responsive on all devices, and such.</p>
+                <button onclick="toggleTask('task1')">Done</button>
+            </div>
+            <div class="task" id="task2">
+                <h2>JavaScript</h2>
+                <p>The language on which everything in the MERN stack is literally built. You'll need to learn the basics and add on ES6+ to gain speed in your work and understand how to handle Async/Await and Promises.</p>
+                <button onclick="completeTask('task2')">Done</button>
+            </div>
+            <div class="task" id="task3">
+                <h2>React.js</h2>
+                <p>React is a frontend framework. Try to focus on components, state management, and hooks like useState and useEffect, among others.</p>
+                <button onclick="toggleTask('task3')">Done</button>
+            </div>
+            <div class="task" id="task4">
+                <h2>Node.js</h2>
+                <p>Node.js is what runs JavaScript on the server. You need to learn how to build APIs and communicate between the frontend and backend. The basics of Node.js will enable you to build a fast server, God willing.</p>
+                <button onclick="toggleTask('task4')">Done</button>
+            </div>
+            <div class="task" id="task5">
+                <h2>Express.js</h2>
+                <p>Express.js is a library that will simplify writing backend code. You'll be able to build RESTful APIs and handle user requests efficiently</p>
+                <button onclick="toggleTask('task5')">Done</button>
+            </div>
+            <div class="task" id="task6">
+                <h2>MongoDB</h2>
+                <p>MongoDB is a NoSQL database where you can easily store data and perform queries. You need to understand CRUD (Create, Read, Update, Delete) operations to manage data effectively as a data administrator.</p>
+                <button onclick="toggleTask('task6')">Done</button>
+            </div>
+            <div class="task" id="task7">
+                <h2>Mongoose</h2>
+                <p>You should be aware that MongoDB isn't always the easiest to manage directly. That's why Mongoose is a library that helps you organize and handle data in a more structured and easier way.</p>
+                <button onclick="toggleTask('task7')">Done</button>
+            </div>
+            <div class="task" id="task8">
+                <h2>JWT Authentication</h2>
+                <p>The most important part of the job is securing your website properly. This is where JWT (JSON Web Tokens) comes into play, providing users with a secure login method and ensuring your data is protected.</p>
+                <button onclick="toggleTask('task8')">Done</button>
+            </div>
+            <div class="task" id="task9">
+                <h2>Git And GitHub</h2>
+                <p>Anyone in this field must be familiar with Git. Not just for commits, but also for managing branches while working with the team.</p>
+                <button onclick="completeTask('task9')">Done</button>
+            </div>
+            <div class="task" id="task10">
+                <h2>Testing</h2>
+                <p>Learn a bit about testing libraries like Jest and Mocha, as they are crucial when it comes to launching your website. Testing ensures your application is reliable, catches bugs early, and maintains high-quality code. These tools help automate the testing process, making it easier to identify and fix issues before deploying to production. Mastering them will improve your workflow and boost your confidence in the stability of your projects.</p>
+                <button onclick="toggleTask('task10')">Done</button>
+            </div>
+            <div class="task" id="task11">
+                <h2>Deployment</h2>
+                <p>After you finish your project, you need to deploy it. Heroku and Vercel are the best deployment tools from my experience, so make sure to focus on the details of environment variables and security.</p>
+                <button onclick="toggleTask('task11')">Done</button>
+            </div>
+            <div class="task" id="task12">
+                <h2>Soft Skills و Agile</h2>
+                <p>This is my personal suggestion, and I always say that more important than the code is teamwork. You need to learn how to work with Agile, how to communicate with your team, and to get familiar with tools like Jira and Trello. (I'll post an explanation about the Agile system soon)</p>
+                <button onclick="toggleTask('task12')">Done</button>
+            </div>
+        </div>
+        <!-- أضف المزيد من الأنشطة هنا -->
+    </div>
+    <div id="motivational-message" class="hidden">Keep going, you're doing great!</div>
+    <div class="footer">
+        <span>Created By Aissa Abdelkrim </span>
+    </div>
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>
